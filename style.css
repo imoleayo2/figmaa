@@ -567,5 +567,122 @@ h5{
        .last a{
         color:#393e46;
        }
-
 }
+
+
+
+
+
+
+/****Laptop screen 1400px****/
+
+@media only screen and (min-width: 1024px){
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'poppins', Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
+        min-height: 100vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main{
+        background-image: url(Background.svg);
+        background-size: contain;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+    }
+    
+    .log{
+        height: 2.8rem;
+        margin: 6.04rem 0 0 4.31rem;
+    }
+    
+    
+    /***** main *****/
+
+
+    h1{
+        font-size: 3rem;
+        font-weight: 600;
+        color: #2a446b;
+        text-align: center;
+        margin-left: 40rem;
+    }
+    
+    .flex-content{
+        justify-content: space-between;
+        margin-left: 20rem;
+    }
+    
+    .form-container {
+        background-color: white;
+        margin: 2.6rem 8.8rem 0 0;
+        box-shadow: 0px 0px 33px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 1.25rem;
+        padding: 2.24rem 2.2rem;
+        width: 50rem;
+        height: 35rem;
+        
+    }
+
+    .form-container p{
+        font-size: 1rem;
+        color: var(--Grey, #393e46);
+    }
+    .form-container a{
+        color: var(--Grey, #016a70);
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .input-wrapper label{
+        font-weight: 600;
+        display: block;
+        color: #393e46;
+        padding: 0 0 0.4rem 0;
+        font-size: larger;
+    }
+    
+    .input-wrapper input{
+        width: 100%;
+        height: 2.6rem;
+        border-radius: 0.5rem;
+        border: 2px solid #b7b7b7;
+        padding: 0.6rem 1.5rem;
+    }
+    
+    .input-wrapper{
+        margin-bottom: 2.04rem;
+    }
+    .input-wrapper button{
+        border-radius: 0.5rem;
+        background-color: var(--Green, #016a70);
+        color: var(--White, #fff);
+        font-size: 1.25rem;
+        font-weight: 600;
+        border: none;
+        width: 30%;
+        padding: 0.3rem;
+        font-size: 1.25rem;
+        margin-left: 35%;
+    }
+    
+    .password {
+        display: flex;
+        justify-content: space-between;
+        font-size: larger;
+        margin-bottom: 10px;
+    }
+
+    .password input{
+        width: 20px;
+        height: 20px;
+        color: #393e46;
+    }
+    .password a{
+        color: #393e46;
+    }
