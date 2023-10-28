@@ -576,7 +576,7 @@ h5{
 
 /****Laptop screen 1400px****/
 
-@media only screen and (min-width: 1400px){
+@media only screen and (min-width: 1440px){
     body{
         margin: 0;
         padding: 0;
@@ -615,7 +615,7 @@ h5{
     
     .flex-content{
         justify-content: space-between;
-        margin-left: 20rem;
+        margin-left: 40rem;
     }
     
     .form-container {
